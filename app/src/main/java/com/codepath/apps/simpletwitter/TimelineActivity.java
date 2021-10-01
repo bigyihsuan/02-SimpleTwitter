@@ -72,7 +72,6 @@ public class TimelineActivity extends AppCompatActivity {
             }
         };
         rvTweets.addOnScrollListener(scrollListener);
-        
         populateHomeTimeline();
     }
 
